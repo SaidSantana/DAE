@@ -1,0 +1,25 @@
+.img-pp {
+    margin-top: 25px;
+    max-height: 200px;
+    width: auto;
+}
+
+.foto{
+    max-height: 250px;
+    float: right;
+}
+
+.fut{
+    max-height: 250px;
+    float: left;
+    margin-left: 30px;
+}
+
+.ps4{
+    @extend .fut;
+    float: right;
+}
+
+.insta{
+    max-height: 50px;
+}
