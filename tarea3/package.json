@@ -1,0 +1,19 @@
+{
+  "name": "tarea3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon . ",
+    "styles": "sass src/sass:output/css --no-source-map",
+    "styles:dev": "sass src/sass:output/css --watch --no-source-map"
+    },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
+    "node": "^19.6.1",
+    "nodemon": "^2.0.20"
+  }
+}
