@@ -1,0 +1,25 @@
+.center {
+    height: 703px;
+    display:flex;
+    justify-content: center;
+    background-color: gray;
+    border-radius: 10px;
+    border: solid 2px;
+
+}
+.dentro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 40px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 25px;
+    font-weight: bold;
+}
+li{
+    font-family: 'Montserrat', sans-serif;;   
+     font-size: 23px;
+}
